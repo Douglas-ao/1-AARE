@@ -1,4 +1,3 @@
-
 package br.com;
 
 public class Calculo {
@@ -10,11 +9,8 @@ public class Calculo {
         
         Calculo kmLitro = new Calculo();
         
-        double resultado = kmLitro.soma(180, 19);
+        int resultado = kmLitro.soma(180, 19);
         
         System.out.println("Gasta : " + resultado + " km por litro.");
-    }
-    
+    }    
 }
-
- 
