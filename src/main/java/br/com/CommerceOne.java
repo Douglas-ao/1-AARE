@@ -56,7 +56,7 @@ public class CommerceOne {
     }
 
     void cell() {
-        if (id == 0003) {
+        if (id == 0003)  {
             discountValue = (discount / 100.0) * valueProduct;
             total = valueProduct - discountValue;
             System.out.println("Nome do produto: " + name);
